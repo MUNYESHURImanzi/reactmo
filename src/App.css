@@ -1,0 +1,10 @@
+.text{
+  display: flex;
+}
+.image{
+  display: block;
+}
+.image button{
+  margin-right: 30px;
+  
+}
