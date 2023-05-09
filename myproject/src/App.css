@@ -1,0 +1,58 @@
+
+h1,p,input,button{
+  text-align: center;
+  margin: 0px;
+}
+
+.input{
+
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.button{
+  display: flex;
+  padding-top: 20px;
+ 
+}
+.button {
+ 
+    display: flex;
+    background-color: blue;
+ 
+  justify-content: center;
+ 
+ 
+}
+.button button{
+  padding: 10px;
+  margin-top: 10px;
+  width: 175px;
+
+}
+.button button[text="cancel"]{
+  background-color: brown;
+}
+label{
+  margin: 10px;
+}
+
+.body{
+  position: relative;
+ background-color: blue;
+margin: auto;
+width: 60%;
+height: 600px;
+}
+input{
+  height: 50px;
+width: 350px;
+ 
+}
+.signup button{
+  background-color: rgb(0, 56, 25);
+}
+.cancel button{
+  background-color: rgb(238, 5, 5);
+}
