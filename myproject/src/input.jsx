@@ -3,19 +3,11 @@ import React, { useState } from 'react';
 
 function Input(props) {
 
-    const [data, setData] = useState("");
-   
-
-    function handemail(event){
-        
-        setData(event.target.value)
-     
-    }
    return (
 
     <div className="input">
-      <label>{props.label} {data}</label>
-      <input type={props.type} placeholder={props.place} onChange={handemail}  />
+      <label>{props.label}</label>
+      <input type={props.type} placeholder={props.place} required />
     </div>
   );
 }
